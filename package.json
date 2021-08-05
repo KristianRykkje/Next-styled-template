@@ -1,0 +1,36 @@
+{
+  "name": "trenings-app",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "npm": "please-use-yarn",
+    "yarn": ">= 1.22.5"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "yarn run lint",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.4.0",
+    "@emotion/styled": "^11.3.0",
+    "axios": "^0.21.1",
+    "emotion-reset": "^3.0.1",
+    "i18next": "^20.3.5",
+    "next": "11.0.1",
+    "next-i18next": "^8.5.5",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-i18next": "^11.11.4"
+  },
+  "devDependencies": {
+    "eslint": "7.31.0",
+    "eslint-config-next": "11.0.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.24.0",
+    "prettier": "^2.3.2"
+  }
+}
