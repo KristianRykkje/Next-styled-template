@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { PageContainer } from "@/styles/Common.styles";
+import { PageWrapper } from "@/styles/Common.styles";
 import HomeComponent from "@/components/HomeComponent/HomeComponent";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
@@ -9,9 +9,9 @@ function Home() {
       <Head>
         <title>Title</title>
       </Head>
-      <PageContainer>
+      <PageWrapper>
         <HomeComponent />
-      </PageContainer>
+      </PageWrapper>
     </>
   );
 }
